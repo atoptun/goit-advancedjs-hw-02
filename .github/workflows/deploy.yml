@@ -37,6 +37,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages-test # change to gh-pages
+          branch: gh-pages # change to gh-pages
           folder: dist
           # dry-run: true # for test, remove before deploy
