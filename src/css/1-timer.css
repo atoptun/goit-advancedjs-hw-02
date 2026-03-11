@@ -1,0 +1,58 @@
+/* Common styles */
+@import url('./debug.css');
+
+@import 'modern-normalize';
+
+@import url('./reset.css');
+@import url('./common.css');
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+
+  width: fit-content;
+  margin: 24px auto;
+}
+
+.settings {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+
+  input {
+    flex-grow: 1;
+
+    font-size: 20px;
+    padding: 4px 8px;
+    width: 200px;
+  }
+
+  button {
+    flex-shrink: 0;
+  }
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+
+  .field {
+    display: flex;
+    flex-direction: column;
+
+    .value {
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 1.1;
+      text-align: center;
+    }
+
+    .label {
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+}

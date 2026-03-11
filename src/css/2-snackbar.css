@@ -1,0 +1,22 @@
+/* Common styles */
+@import url('./debug.css');
+
+@import 'modern-normalize';
+
+@import url('./reset.css');
+@import url('./common.css');
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
